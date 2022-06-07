@@ -1,0 +1,137 @@
+.allOfHomePage{
+    background-image: linear-gradient(to top, #FFCCBB, #F85C4D);
+}
+
+.TrendsandPostPart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.belowNavbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.addButton{
+    background-color: #FF6C5C;
+    padding: 1%;
+    border-radius: 20%;   
+}
+
+.addButton:hover{
+    background-color: #FFCCBB;
+    transition: background-color 1s;
+    cursor: pointer;
+}
+
+.trendPartBelowNav{
+    background-color: #FF6C5C;
+    padding: 1%;
+    border-radius: 20%;
+}
+
+.trendPartBelowNav:hover{
+    background-color: #FFCCBB;
+    transition: background-color 1s;
+    cursor: pointer;
+}
+
+.allOfPosts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 27%;
+}
+
+.postImage{
+    width: 30vw;
+    height: 40vh;
+    border-radius: 20%;
+    margin: 5%;
+}
+
+.borderPost{
+    margin-top: 10vh;
+    padding: 1%;
+    background-color: #FF6C5C;
+    border-radius: 15%;
+    color: white;
+}
+
+.subjectparagraph{
+    width: 40vw;
+    height: 10vh;
+    overflow: hidden;
+    margin: 1%;
+}
+
+.deleteupdatebuttons{
+    width: 5vw;
+    height: 4vh;
+    border-radius: 20%;
+    margin: 1%;
+    margin-top: 2%;
+    color: white;
+    background-color: #E84C3D;
+    transition: background-color 1s;
+}
+
+.deleteupdatebuttons:hover{
+    background-color: #FFCCBB;
+}
+
+.likeunlikehearths{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.likeunlikeborder{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.likebutton{
+    background-color: #E84C3D;
+    transition: background-color 1s;
+}
+
+.likebutton:hover{
+    background-color: #FFCCBB;
+}
+
+.unlikebutton{
+    background-color: #E84C3D;
+    transition: background-color 1s;
+}
+
+.unlikebutton:hover{
+    background-color: #FFCCBB;
+}
+
+.linkdecorationaddbutton{
+    text-decoration: none;
+    color: black;
+}
+
+.linkdecorationlogoutbutton{
+    background-color: #FF6C5C;
+    border: none;
+    width: 5vw;
+    height: 5vh;
+    border-radius: 20%;
+}
+
+.linkdecorationlogoutbutton:hover{
+    background-color: #FFCCBB;
+    transition: background-color 1s;
+    cursor: pointer;
+}
+
+.allOfTrends{
+    background-color: #FF6C5C;
+    margin-right: 4.5% ;
+    height: 1%;
+    padding: 1%;
+}

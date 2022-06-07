@@ -1,0 +1,78 @@
+.AllOfNavPart{
+    display: flex;
+    justify-content: space-between;   
+    padding: 1%;
+    background-color: #D83C2D;
+}
+
+.logo{
+    width: 12vw;
+    height: 15vh;
+}
+
+.sign-part{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.sign-in{
+    margin-left: 3vw;
+    margin-right: 2vw;
+    background-color: #FF6C5C;
+    padding: 10%;
+    border-radius: 50%;
+    transition: background-color 1s;
+}
+
+.sign-in:hover{
+    background-color: #FFCCBB;
+    cursor: pointer;
+}
+
+.sign-up{
+    background-color: #FF6C5C;
+    padding: 10%;
+    border-radius: 50%;
+    transition: background-color 1s;
+}
+
+.sign-up:hover{
+    background-color: #FFCCBB;
+    cursor: pointer;
+}
+
+.linkdecorationnavbar{
+    text-decoration: none;
+    color: black;
+}
+
+.searchStyle{
+    border: none;
+    outline: none;
+    background: #E84C3D;
+    border-radius: 20%;
+    color: white;
+    margin-top: 30%;
+    margin-left: 5%;
+    padding: 5%;
+    transition: background-color 1s;
+}
+
+.searchStyle::placeholder {
+    color: black;
+    opacity: 0.9;
+}
+
+.searchStyle:hover{
+    background-color: #FFCCBB;
+    cursor: pointer;
+}
+
+.iconandbar{
+    width: 120%;
+}
+
+.midofnavbar{
+    margin-right: 6%;
+}

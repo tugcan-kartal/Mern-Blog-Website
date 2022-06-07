@@ -1,0 +1,32 @@
+.fullOfAddButton{
+    background-color: #FF6C5C;
+    padding: 20vh;
+    padding-bottom: 40vh;
+}
+
+.allOfAddButtonPart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.commoninput{
+    margin: 10%;
+}
+
+.styleinput{
+    border: none;
+    outline: none;
+    background: #E84C3D;
+    border-radius: 20%;
+    color: white;
+}
+
+.styleinputSubmit{
+    border: none;
+    outline: none;
+    background: #E84C3D;
+    border-radius: 20%;
+    color: white;
+    margin-left: 30%;
+}
